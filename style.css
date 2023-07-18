@@ -1,0 +1,497 @@
+* {
+    font-family: sans-serif;
+}
+
+/* .........HEADER......... */
+header{
+    height: 4em;
+    width: 100%;
+    background-color:#2a4d69;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+header .topnav{
+    padding-top: 0.5em;
+}
+header a{
+    color: 	#e7eff6;
+    text-decoration: none;
+    padding-top: 1em;
+    padding: 0.5em;
+    font-weight:lighter;
+    font-size:larger;
+    margin-left: 2em;
+    text-align: center;
+    position: relative;
+}
+header a:hover{
+    border-bottom-style: solid;
+}
+/* ....................... */
+/* .........FOOTER......... */
+footer{
+    height: 6em;
+    width: 100%;
+    background-color:#2a4d69;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+footer .media{
+    text-align: center;
+    padding-top: 2em;
+    justify-items:flex-start;
+}
+.media span{
+    display:inline-block;
+    padding-left: 20px;
+}
+span a img{
+    border-style: solid;
+    border-color: #e7eff6;
+    border-radius: 50%;
+}
+/* ....................... */
+
+/* .........INDEX......... */
+/* PROFILE */
+.profile{
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left: 0;
+    position:static;
+    background-color:#e7eff6;
+    padding: 4em;
+    
+}
+.profile .fname{
+    height: 25em;
+    width: 100%;
+    padding-top: 5em;
+}
+.profile .fname h1{
+    color: #4b86b4;
+    font-weight:1000;
+    font-size: 90px; 
+    font-stretch:ultra-condensed;
+    text-decoration: underline;
+    line-height: 1.5em;
+}
+.profile h1 span{
+    color: #e7eff6;
+    background-color:#4b86b4;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 80px;
+}
+.profile .talent {
+    width: 100%;
+    height: 15em;
+}
+.talent p{
+    color: #4b86b4;
+    font-weight:bold;
+    font-size: large;
+    padding-top: 2em;
+}
+/* ....................... */
+
+/* .........ABOUT......... */
+/* ABOUT */
+.about{
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left: 0;
+    position:static;
+    background-color: #adcbe3;
+    padding: 5em;
+    padding-top: 10em;
+    display: none;
+}
+.pic{
+    width: 400px;
+    float: left;
+    position: static;
+}
+.pic img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border-style:dashed;
+    border-width: 20px;
+    border-color: #2a4d69;
+}
+.para{
+    float: right;
+    position: static;
+    width: 800px;
+    height: 25em;
+    padding:2em;
+}
+.para p{
+    color: #2a4d69;
+    text-indent: 3em;
+    font-size: large;
+    border-top-style: solid;
+    border-top-color: #e7eff6;
+    border-top-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #e7eff6;
+    border-bottom-width: 10px;
+    line-height: 2.5em;
+    text-align: justify;
+}
+/* ....................... */
+
+/* .........KNOWLEDGE......... */
+.knowledge{
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left: 0;
+    position:static;
+    background-color: #e7eff6;
+    padding: 20em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: none;
+}
+.knowledge .container{
+    width: 100%;
+    height: max-content;
+}
+.container h1{
+    width:100%;
+    font-size:40px;
+    font-weight: bolder;
+    color: #2a4d69;
+}
+.container h4{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #2a4d69;
+}
+.container .contents{
+    border-style: solid;
+    border-color: #4b86b4;
+    border-radius: 30px;
+}
+.container .contents p{
+    padding: 0.5em;
+    color: #2a4d69;
+    font-size: 15px;
+    font-weight: bold;
+}
+.knowledge .media{
+    padding-top: 1em;
+    width: 100%;
+}
+.media h4{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    color:#2a4d69;
+}
+.media .m-contents p{
+    background-color: #adcbe3;
+    padding: 0.7em;
+    color: #2a4d69;
+    font-size: 15px;
+    font-weight: bolder;
+    border-right-style: solid;
+    border-width: 10px;
+    border-left-style: solid;
+    border-color: #4b86b4;
+}
+/* ....................... */
+
+/* .........EXPERIENCES......... */
+.exp{
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left: 0;
+    position:static;
+    background-color: #adcbe3;
+    padding: 10em;
+    padding-top: 10em;
+    padding-bottom: 5em;
+    display: none;
+}
+.exp h1{
+    width:100%;
+    padding-top: 10px;
+    font-size:40px;
+    font-weight: bolder;
+    color: #2a4d69
+}
+.exp .container .col img{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #2a4d69;
+    border-width: 10px;
+}
+.col h4{
+    font-size: larger;
+    padding: 1em;
+}
+.col h6{
+    font-weight: bold;
+    background-color: #2a4d69;
+    padding: 1em;
+    color: #e7eff6;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    /* .........HEADER......... */
+    header{
+        height: 4em;
+        width: 100%;
+        background-color:#2a4d69;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    header .topnav{
+        padding-top: 1em;
+    }
+    header a{
+        color: 	#e7eff6;
+        text-decoration: none;
+        padding: 1em;
+        font-weight:bold;
+        font-size:10px;
+        margin-left: 2em;
+        text-align: center;
+        position: relative;
+    }
+    header a:hover{
+        border-bottom-style: solid;
+        transition: .2s;
+    }
+    /* ....................... */
+    /* .........FOOTER......... */
+    footer{
+        height: 6em;
+        width: 100%;
+        background-color:#2a4d69;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    footer .media{
+        text-align: center;
+        padding-top: 2em;
+        justify-items:flex-start;
+    }
+    .media span{
+        display:inline-block;
+        padding-left: 20px;
+    }
+    span a img{
+        border-style: solid;
+        border-color: #e7eff6;
+        border-radius: 50%;
+    }
+    /* ....................... */
+    /* .........INDEX......... */
+    /* PROFILE */
+    .profile{
+        width: 100%;
+        height: 100vh;
+        top:0;
+        left: 0;
+        position:static;
+        padding: 4em;
+    }
+    .profile .fname{
+        text-align:justify;
+        height: 25em;
+        width: 100%;
+        padding-top: 5em;
+    }
+    .profile .fname h1{
+        color: #4b86b4;
+        font-weight:1000;
+        font-size: 40px; 
+        font-stretch:ultra-condensed;
+        text-decoration: underline;
+        line-height: 1.5em;
+    }
+    .profile h1 span{
+        color: #e7eff6;
+        background-color:#4b86b4;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 40px;
+    }
+    .profile .talent {
+        width: 100%;
+        height: 15em;
+    }
+    .talent p{
+        color: #4b86b4;
+        font-weight:bold;
+        font-size: large;
+        padding-top: 2em;
+    }
+    /* ....................... */
+
+    /* .........ABOUT......... */
+    /* ABOUT */
+    .about{
+        width: 100%;
+        height: 110vh;
+        top:0;
+        left: 0;
+        position:static;
+        background-color: #adcbe3;
+        display: none;
+    }
+    .pic{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+    }
+    .pic img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border-style:dashed;
+        border-width: 20px;
+        border-color: #2a4d69;
+        text-align: center;
+    }
+    .para{
+        width: 100%;
+        height: 25em;
+        padding:2em;
+    }
+    .para p{
+        color: #2a4d69;
+        text-indent: 3em;
+        font-size: small;
+        font-weight: bold;
+        border-top-style: solid;
+        border-top-color: #e7eff6;
+        border-top-width: 10px;
+        border-bottom-style: solid;
+        border-bottom-color: #e7eff6;
+        border-bottom-width: 10px;
+        line-height: 2em;
+        text-align: justify;
+    }
+    /* ....................... */
+    /* .........KNOWLEDGE......... */
+    .knowledge{
+        width: 100%;
+        height: 120vh;
+        top:0;
+        left: 0;
+        position:static;
+        background-color: #e7eff6;
+        padding: 5em;
+        padding-top: 7em;
+        padding-bottom: 5em;
+        display: none;
+    }
+    .knowledge .container{
+        width: 100%;
+        height: max-content;
+    }
+    .container h1{
+        width:100%;
+        font-size:30px;
+        font-weight: bolder;
+        color: #2a4d69;
+    }
+    .container h4{
+        width: 100%;
+        font-size: 15px;
+        font-weight: bolder;
+        color: #2a4d69;
+    }
+    .container .contents{
+        border-style: solid;
+        border-color: #4b86b4;
+        border-radius: 30px;
+    }
+    .container .contents p{
+        color: #2a4d69;
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 1em;
+    }
+    .knowledge .media{
+        padding-top: 1em;
+        width: 100%;
+    }
+    .media h4{
+        width: 100%;
+        font-size: 20px;
+        font-weight: bolder;
+        color:#2a4d69;
+    }
+    .media .m-contents p{
+        background-color: #adcbe3;
+        padding: 0.7em;
+        color: #2a4d69;
+        font-size: 10px;
+        font-weight: bolder;
+        border-right-style: solid;
+        border-width: 10px;
+        border-left-style: solid;
+        border-color: #4b86b4;
+    }
+    /* ....................... */
+    /* .........EXPERIENCES......... */
+    .exp{
+        width: 100%;
+        height: 110vh;
+        top:0;
+        left: 0;
+        position:static;
+        background-color: #adcbe3;
+        padding: 5em;
+        padding-bottom: 5em;
+        display: none;
+    }
+    .exp h1{
+        width:100%;
+        padding-top: 10px;
+        font-size:30px;
+        font-weight: bolder;
+        color: #2a4d69
+    }
+    .exp .container .col img{
+        height: 170px;
+        width: 170px;
+        border-style: solid;
+        border-color: #2a4d69;
+        border-width: 10px;
+    }
+    .col h4{
+        font-size: larger;
+        padding: 0.5em;
+    }
+    .col h6{
+        font-weight:bold;
+        background-color: #2a4d69;
+        padding: 0.5em;
+        color: #e7eff6;
+        font-size: 10px;
+    }
+
+}

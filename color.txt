@@ -1,0 +1,11 @@
+#2a4d69 - footer/header
+
+#4b86b4 - dark text
+
+#adcbe3 - div background
+
+#e7eff6 - light text/ background
+
+
+unnecessary
+#63ace5 - mid text
