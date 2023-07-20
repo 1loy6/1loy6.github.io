@@ -1,10 +1,9 @@
 * {
     font-family: sans-serif;
 }
-
 /* .........HEADER......... */
 header{
-    height: 4em;
+    height: 5em;
     width: 100%;
     background-color:#2a4d69;
     position: fixed;
@@ -12,27 +11,29 @@ header{
     left: 0;
     text-align: center;
 }
-header .topnav{
-    padding-top: 0.5em;
+.topnav{
+    padding: 1.5em;
 }
-header a{
+.topnav a{
     color: 	#e7eff6;
     text-decoration: none;
-    padding-top: 1em;
-    padding: 0.5em;
+    padding: 1em;
     font-weight:lighter;
     font-size:larger;
-    margin-left: 2em;
+    margin: 1em;
     text-align: center;
     position: relative;
 }
 header a:hover{
-    border-bottom-style: solid;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
 /* ....................... */
+
+
 /* .........FOOTER......... */
 footer{
-    height: 6em;
+    height: 4em;
     width: 100%;
     background-color:#2a4d69;
     position: fixed;
@@ -42,12 +43,11 @@ footer{
 }
 footer .media{
     text-align: center;
-    padding-top: 2em;
     justify-items:flex-start;
 }
 .media span{
     display:inline-block;
-    padding-left: 20px;
+    padding: 1em;
 }
 span a img{
     border-style: solid;
@@ -56,22 +56,18 @@ span a img{
 }
 /* ....................... */
 
+
 /* .........INDEX......... */
-/* PROFILE */
 .profile{
-    width: 100%;
     height: 100vh;
-    top:0;
-    left: 0;
+    width: 100%;
     position:static;
     background-color:#e7eff6;
-    padding: 4em;
-    
 }
 .profile .fname{
-    height: 25em;
     width: 100%;
-    padding-top: 5em;
+    height: 60vh;
+    padding: 10em;
 }
 .profile .fname h1{
     color: #4b86b4;
@@ -87,19 +83,20 @@ span a img{
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 80px;
+    font-size: 90px;
 }
-.profile .talent {
+.profile .talent{
     width: 100%;
-    height: 15em;
+    height: 40vh;
 }
 .talent p{
     color: #4b86b4;
-    font-weight:bold;
-    font-size: large;
+    font-size:medium;
+    font-weight: bold;
     padding-top: 2em;
 }
 /* ....................... */
+
 
 /* .........ABOUT......... */
 /* ABOUT */
@@ -109,15 +106,13 @@ span a img{
     top:0;
     left: 0;
     position:static;
-    background-color: #adcbe3;
-    padding: 5em;
+    padding: 8em;
     padding-top: 10em;
-    display: none;
 }
 .pic{
-    width: 400px;
+    width: 40%;
+    height: max-content;
     float: left;
-    position: static;
 }
 .pic img{
     height: 400px;
@@ -129,25 +124,24 @@ span a img{
 }
 .para{
     float: right;
-    position: static;
-    width: 800px;
-    height: 25em;
-    padding:2em;
+    height: 60vh;
+    width: 50%;
 }
 .para p{
     color: #2a4d69;
     text-indent: 3em;
     font-size: large;
     border-top-style: solid;
-    border-top-color: #e7eff6;
+    border-top-color: #adcbe3;
     border-top-width: 10px;
     border-bottom-style: solid;
-    border-bottom-color: #e7eff6;
+    border-bottom-color:#adcbe3;
     border-bottom-width: 10px;
     line-height: 2.5em;
     text-align: justify;
 }
 /* ....................... */
+
 
 /* .........KNOWLEDGE......... */
 .knowledge{
@@ -157,60 +151,73 @@ span a img{
     left: 0;
     position:static;
     background-color: #e7eff6;
-    padding: 20em;
-    padding-top: 5em;
-    padding-bottom: 5em;
-    display: none;
+    padding: 5em;
+    padding-top: 10em;
 }
-.knowledge .container{
-    width: 100%;
-    height: max-content;
+.knowledge .progknow{
+    width: 50%;
+    height: 60vh;
+    float: left;
 }
-.container h1{
+.progknow h1{
     width:100%;
-    font-size:40px;
+    font-size:30px;
     font-weight: bolder;
-    color: #2a4d69;
+    color: #e7eff6;
+    padding: 1em;
+    background-color: #4b86b4;
 }
-.container h4{
+.progknow h4{
     width: 100%;
     font-size: 20px;
     font-weight: bolder;
     color: #2a4d69;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
-.container .contents{
-    border-style: solid;
+.progknow .contents{
+    padding: 1em;
+    line-height: 2em;
+    border-style:dashed;
+    border-radius: 10px;
     border-color: #4b86b4;
-    border-radius: 30px;
 }
 .container .contents p{
-    padding: 0.5em;
     color: #2a4d69;
     font-size: 15px;
     font-weight: bold;
+
 }
 .knowledge .media{
-    padding-top: 1em;
-    width: 100%;
+    width: 50%;
+    height: 60vh;
+    float: right;
 }
-.media h4{
-    width: 100%;
-    font-size: 20px;
+.media h1{
+    width:100%;
+    font-size:30px;
     font-weight: bolder;
-    color:#2a4d69;
+    color: #e7eff6;
+    padding: 1em;
+    background-color: #4b86b4;
 }
-.media .m-contents p{
+.media .contents{
+    padding: 3em;
+    border-style:solid;
+    border-color: #4b86b4;
+}
+.media .contents p{
     background-color: #adcbe3;
-    padding: 0.7em;
+    padding: 1em;
     color: #2a4d69;
     font-size: 15px;
     font-weight: bolder;
     border-right-style: solid;
-    border-width: 10px;
+    border-width: 5px;
     border-left-style: solid;
-    border-color: #4b86b4;
 }
 /* ....................... */
+
 
 /* .........EXPERIENCES......... */
 .exp{
@@ -219,41 +226,50 @@ span a img{
     top:0;
     left: 0;
     position:static;
-    background-color: #adcbe3;
-    padding: 10em;
+    background-color: #e7eff6;
+    padding: 5em;
     padding-top: 10em;
-    padding-bottom: 5em;
-    display: none;
 }
 .exp h1{
     width:100%;
-    padding-top: 10px;
-    font-size:40px;
+    font-size:30px;
     font-weight: bolder;
-    color: #2a4d69
+    color: #e7eff6;
+    padding: 1em;
+    background-color: #4b86b4;
+    margin-bottom: 1em;
 }
 .exp .container .col img{
     height: 200px;
     width: 200px;
     border-style: solid;
-    border-color: #2a4d69;
+    border-color: #4b86b4;
     border-width: 10px;
 }
 .col h4{
-    font-size: larger;
+    font-size:20px;
     padding: 1em;
+    font-weight: bold;
+    color: #4b86b4;
 }
 .col h6{
     font-weight: bold;
-    background-color: #2a4d69;
+    background-color: #4b86b4;
     padding: 1em;
     color: #e7eff6;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+    body{
+        margin: 0;
+        width:100vw;
+        height: 100vh;
+        overflow: auto;
+    }
+    
     /* .........HEADER......... */
     header{
-        height: 4em;
+        height: 5em;
         width: 100%;
         background-color:#2a4d69;
         position: fixed;
@@ -261,27 +277,27 @@ span a img{
         left: 0;
         text-align: center;
     }
-    header .topnav{
-        padding-top: 1em;
+    .topnav{
+        padding: 1em;
     }
-    header a{
+    .topnav a{
         color: 	#e7eff6;
         text-decoration: none;
         padding: 1em;
         font-weight:bold;
         font-size:10px;
-        margin-left: 2em;
         text-align: center;
-        position: relative;
     }
     header a:hover{
-        border-bottom-style: solid;
-        transition: .2s;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
     }
     /* ....................... */
+
+
     /* .........FOOTER......... */
     footer{
-        height: 6em;
+        height: 4em;
         width: 100%;
         background-color:#2a4d69;
         position: fixed;
@@ -291,12 +307,11 @@ span a img{
     }
     footer .media{
         text-align: center;
-        padding-top: 2em;
         justify-items:flex-start;
     }
     .media span{
         display:inline-block;
-        padding-left: 20px;
+        padding: 1em;
     }
     span a img{
         border-style: solid;
@@ -304,29 +319,27 @@ span a img{
         border-radius: 50%;
     }
     /* ....................... */
+
+    
     /* .........INDEX......... */
-    /* PROFILE */
     .profile{
-        width: 100%;
         height: 100vh;
-        top:0;
-        left: 0;
+        width: 100%;
         position:static;
-        padding: 4em;
+        background-color:#e7eff6;
     }
     .profile .fname{
-        text-align:justify;
-        height: 25em;
         width: 100%;
-        padding-top: 5em;
+        height: 60vh;
+        padding: 2em;
     }
     .profile .fname h1{
+        padding-top: 3em;
         color: #4b86b4;
-        font-weight:1000;
         font-size: 40px; 
         font-stretch:ultra-condensed;
         text-decoration: underline;
-        line-height: 1.5em;
+        line-height: 2em;
     }
     .profile h1 span{
         color: #e7eff6;
@@ -336,160 +349,176 @@ span a img{
         padding-right: 10px;
         font-size: 40px;
     }
-    .profile .talent {
+    .profile .talent{
         width: 100%;
-        height: 15em;
+        height: 40vh;
+        padding: 2em;
     }
     .talent p{
         color: #4b86b4;
-        font-weight:bold;
-        font-size: large;
+        font-size:small;
+        font-weight: bold;
         padding-top: 2em;
     }
     /* ....................... */
+
 
     /* .........ABOUT......... */
     /* ABOUT */
     .about{
         width: 100%;
-        height: 110vh;
+        height:fit-content;
         top:0;
         left: 0;
         position:static;
-        background-color: #adcbe3;
-        display: none;
+        padding: 2em;
+        padding-top: 7em;
     }
     .pic{
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        position: static;
+        height: max-content;
+        padding-bottom: 2em;
     }
     .pic img{
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         border-radius: 50%;
         border-style:dashed;
         border-width: 20px;
         border-color: #2a4d69;
-        text-align: center;
     }
     .para{
+        height: 60vh;
         width: 100%;
-        height: 25em;
-        padding:2em;
     }
     .para p{
         color: #2a4d69;
         text-indent: 3em;
-        font-size: small;
-        font-weight: bold;
+        font-size: 15px;
         border-top-style: solid;
-        border-top-color: #e7eff6;
+        border-top-color: #adcbe3;
         border-top-width: 10px;
         border-bottom-style: solid;
-        border-bottom-color: #e7eff6;
+        border-bottom-color: #adcbe3;
         border-bottom-width: 10px;
-        line-height: 2em;
+        line-height: 1.5em;
         text-align: justify;
     }
     /* ....................... */
+
+
     /* .........KNOWLEDGE......... */
     .knowledge{
         width: 100%;
-        height: 120vh;
+        height: 100vh;
+        overflow: auto;
         top:0;
         left: 0;
         position:static;
-        background-color: #e7eff6;
-        padding: 5em;
-        padding-top: 7em;
+        padding: 2em;
+        padding-top: 5em;
         padding-bottom: 5em;
-        display: none;
+        background-color: #e7eff6;
     }
-    .knowledge .container{
+    .knowledge .progknow{
         width: 100%;
-        height: max-content;
+        height:max-content;
+        position:static;
+        padding:1em;
     }
-    .container h1{
-        width:100%;
-        font-size:30px;
+    .progknow h1{
+        font-size:15px;
         font-weight: bolder;
-        color: #2a4d69;
+        color: #e7eff6;
+        padding: 1em;
+        background-color: #4b86b4;
     }
-    .container h4{
-        width: 100%;
-        font-size: 15px;
-        font-weight: bolder;
-        color: #2a4d69;
+    .progknow h4{
+        font-size: 10px;
+        font-weight: bold;
+        color:#4b86b4;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
     }
-    .container .contents{
-        border-style: solid;
+    .progknow .contents{
+        line-height: 0.5em;
+        border-style:dashed;
+        border-radius: 10px;
         border-color: #4b86b4;
-        border-radius: 30px;
     }
     .container .contents p{
         color: #2a4d69;
         font-size: 10px;
         font-weight: bold;
-        line-height: 1em;
     }
     .knowledge .media{
-        padding-top: 1em;
         width: 100%;
+        position:static;
+        padding: 1em;
+        height: max-content;
     }
-    .media h4{
-        width: 100%;
-        font-size: 20px;
+    .media h1{
+        width:100%;
+        font-size:15px;
         font-weight: bolder;
-        color:#2a4d69;
+        color: #e7eff6;
+        padding: 1em;
+        background-color: #4b86b4;
     }
-    .media .m-contents p{
+    .media .contents{
+        padding: 1em;
+        border-style:solid;
+        border-color: #4b86b4;
+    }
+    .media .contents p{
         background-color: #adcbe3;
-        padding: 0.7em;
         color: #2a4d69;
         font-size: 10px;
         font-weight: bolder;
         border-right-style: solid;
-        border-width: 10px;
+        border-width: 5px;
         border-left-style: solid;
-        border-color: #4b86b4;
     }
     /* ....................... */
+
+
     /* .........EXPERIENCES......... */
     .exp{
         width: 100%;
-        height: 110vh;
+        height: 100vh;
+        overflow: auto;
         top:0;
         left: 0;
         position:static;
-        background-color: #adcbe3;
-        padding: 5em;
+        padding: 2em;
+        padding-top: 7em;
         padding-bottom: 5em;
-        display: none;
+        background-color: #e7eff6;
     }
     .exp h1{
         width:100%;
-        padding-top: 10px;
-        font-size:30px;
+        font-size:20px;
         font-weight: bolder;
-        color: #2a4d69
+        color: #e7eff6;
+        background-color: #4b86b4;
     }
     .exp .container .col img{
-        height: 170px;
-        width: 170px;
+        height: 150px;
+        width: 150px;
         border-style: solid;
-        border-color: #2a4d69;
+        border-color: #4b86b4;
         border-width: 10px;
     }
     .col h4{
-        font-size: larger;
+        font-size:15px;
         padding: 0.5em;
+        font-weight: bold;
+        color: #4b86b4;
     }
     .col h6{
-        font-weight:bold;
-        background-color: #2a4d69;
-        padding: 0.5em;
+        font-weight: bold;
+        background-color: #4b86b4;
+        padding: 1em;
         color: #e7eff6;
         font-size: 10px;
     }
