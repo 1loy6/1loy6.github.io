@@ -336,10 +336,10 @@ span a img{
     .profile .fname h1{
         padding-top: 3em;
         color: #4b86b4;
-        font-size: 40px; 
+        font-size: 50px; 
         font-stretch:ultra-condensed;
         text-decoration: underline;
-        line-height: 2em;
+        line-height: 1.5em;
     }
     .profile h1 span{
         color: #e7eff6;
